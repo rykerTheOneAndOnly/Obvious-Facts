@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a {
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    display: inline;
+}
+
+#title {
+    display: inline;
+    margin-right: 0.75em;
+}
+
+#credits {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#credits a {
+    margin-left: 0;
+}
+
+#fact {
+    text-align: center;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+}
+
+#controls button {
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+}
+
+#controls #next {
+    margin-left: 2em;
+}
