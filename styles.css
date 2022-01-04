@@ -29,11 +29,13 @@ body {
 #options.open {
 	background-color: black;
 	color: white;
+	border-color: white;
 }
 
 #options:hover {
 	background-color: black;
 	color: white;
+	border-color: white;
 }
 
 #notecardMain {
@@ -47,7 +49,7 @@ body {
 	border-radius: 50px;
 	border: 5px solid lightgray;
 	box-shadow: 10px 10px 0px 3px lightgray;
-	transition: 0.4s all;
+	transition: 0.5s all;
 	opacity: 0;
 }
 

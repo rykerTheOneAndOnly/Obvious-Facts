@@ -15,6 +15,8 @@ counterEl.innerHTML = facts.length;
 
 var lastFact = undefined;
 
+var randomColor = undefined;
+
 var colorList = [
 	"lightskyblue",
 	"aquamarine",
@@ -96,6 +98,7 @@ function reactionClicked(target) {
 
 function nextClicked(target) {
 	target.className = "clicked";
+	target.disabled = true;
 
 	rollFact();
 }
